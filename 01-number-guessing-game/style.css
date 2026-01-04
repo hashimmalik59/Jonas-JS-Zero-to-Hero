@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80vh;
+    width: 70vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.header button {
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.game-score {
+    font-size: 4rem;
+    background-color: #000;
+    color: #fff;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    font-size: 1.5rem;
+}
+
+.main input {
+    height: 10vh;
+    width: 10vw;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-progress {
+    width: 75%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 26%;
+    font-size: 1.5rem;
+}
+
+.game-progress button {
+    padding: 10px 20px;
+    font-size: 2rem;
+}
